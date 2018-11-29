@@ -38,21 +38,16 @@
 
 }
 
-.nvbr{
-    background-color: white;
-    
-}
 
-.nvbr ul li a{
-    
+
+.navbar .bordered a {
     border: 2px solid #E43496;
      text-align: center;
 }
        
     
-.navbar-brand {
-    background-color: white;
-    color:#168299;
+.navbar-light .navbar-brand {
+       color:#168299;
     text-decoration: none;
     
 }
@@ -114,7 +109,6 @@ body {
 	font-size: 1.4em;
 	font-family: 'mukta', sans-serif;
   font-weight: bold;
-	color: black;
   padding: 0;
   margin: 0;
 	background: #fff;
