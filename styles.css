@@ -40,7 +40,7 @@
 
 
 
-.navbar .bordered a {
+.navbar .bordered  {
     border: 2px solid #E43496;
      text-align: center;
 }
@@ -49,9 +49,9 @@
 .navbar-light .navbar-brand {
        color:#168299;
     text-decoration: none;
+    text-align: right;
     
 }
-
 
 
 html {
