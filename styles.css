@@ -347,3 +347,87 @@ footer p {
     }
 
 }
+
+/*styling for followup page*/
+
+/*followup carousel*/
+.carousel {
+  width:100%;
+
+  }
+.bkc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.carousel {
+  position: relative;
+  margin-bottom: 250px;
+
+}
+.carousel-inner {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.carousel .item bkc> img {
+  display: block;
+  line-height: 1;
+}
+
+.main-Impact {
+ color: #6e859c;
+ font-size: 2.25em;
+ font-family: 'Varela Round', sans-serif;
+}
+
+.article{
+font-size: small;
+
+}
+/*followup page - redo*/
+.one {
+    position: relative;
+      left: -400px;
+    }
+.two  {
+    position: relative;
+    right: -400px;
+}
+
+.imagequote {
+  height: 1000px;
+}
+.textarea {
+  background: #e4e6e7;
+  border-color:#168299;
+  border: 2px;
+  border-radius: 3px;
+  resize: none;
+  padding: 10px;
+  font-size: 20px;
+  color: #19313b;
+}
+
+.submit {
+  background: #168299;
+  padding: 5px 15px;
+  font-size: 30px;
+  color: #fff;
+  border: none;
+  margin: 0 10px;
+  border-radius: 3px;
+  box-shadow: 0 3px 0 #19313b;
+  cursor: pointer;
+
+  -webkit-transition:background .2s ease;
+  -moz-transition:background .2s ease;
+  -o-transition:background .2s ease;
+}
+
+.submit:hover{
+  background:  #19313b;
+}
