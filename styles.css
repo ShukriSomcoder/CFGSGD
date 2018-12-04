@@ -30,6 +30,11 @@
     
 }
 
+.ournav{
+    float: right;
+    padding-right: 50px;
+}
+
 .img-fluid{
     width: 80%;
     display: block;
@@ -52,6 +57,7 @@
     text-align: right;
     
 }
+
 
 
 html {
