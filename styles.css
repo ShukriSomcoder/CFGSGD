@@ -23,6 +23,7 @@
     
 }
 
+
 .logo {width: 80%;
     display: flex;
     margin-left: auto;
@@ -311,7 +312,16 @@ footer p {
     background color:teal;
 }
 
- 
+/*navigation dropdown text wrap*/
+.dropdown-item .overflow-wrap  {
+  overflow-wrap: break-word;
+}
+
+.word-break {
+  word-break: break-all;
+}
+
+
 /*** Media queries**/
 
 /* tablet size*/
@@ -409,5 +419,33 @@ footer p {
 }
   
 }
+
+/* Media queries for dropdown navigation overflow*/
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 991px) {
+
+    .dropdown-menu, .dropdown-item{
+        overflow:auto;
+        width: 80%;
+        
+    }
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+    .dropdown-menu, .dropdown-item{
+        overflow: hidden;
+        width: 80%;
+        
+    }
+   
+}
+  
+
+
 
 
