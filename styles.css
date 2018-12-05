@@ -29,6 +29,10 @@
     margin-right: auto;
 
 }
+.ournav{
+    float: right;
+    padding-right: 50px;
+}
 
 .img-fluid{
     width: 80%;
@@ -38,26 +42,12 @@
 
 }
 
-.nvbr{
-    background-color: white;
-
-}
-
-.nvbr ul li a{
-
-    border: 2px solid #E43496;
-     text-align: center;
-}
-
-
-.navbar-brand {
-    background-color: white;
-    color:#168299;
+.navbar-light .navbar-brand {
+       color:#168299;
     text-decoration: none;
-
+    text-align: right;
+    
 }
-
-
 
 html {
   height: 100%;
@@ -114,7 +104,7 @@ body {
 	font-size: 1.4em;
 	font-family: 'mukta', sans-serif;
   font-weight: bold;
-	color: black;
+	
   padding: 0;
   margin: 0;
 	background: #fff;
@@ -321,6 +311,14 @@ footer p {
 .blockquote {
     background color:teal;
 }
+/*navigation dropdown text wrap*/
+.dropdown-item .overflow-wrap  {
+  overflow-wrap: break-word;
+}
+
+.word-break {
+  word-break: break-all;
+}
 
 
 /*** Media queries**/
@@ -347,6 +345,105 @@ footer p {
     }
 
 }
+/* Media queries for jumbotron*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .jumbotron h1 .display-4 {
+        font-size: 2em;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .jumbotron h1 .display-4{
+        font-size: 6em;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .jumbotron h1 .display-4{
+        font-size: 8em;
+    }
+}
+
+/* Media queries for navigation border*/
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .navbar .bordered  {
+    border-left: 2px solid #E43496;
+    border-right: 2px solid #E43496;
+    border-top: 2px solid #E43496;
+    border-bottom: none;
+     text-align: center;
+}
+    .navbar .bordered1  {
+   border: 2px solid #E43496;
+     text-align: center;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 991px) {
+.navbar .bordered  {
+    border-left: 2px solid #E43496;
+    border-right: 2px solid #E43496;
+    border-top: 2px solid #E43496;
+    border-bottom: none;
+     text-align: center;
+}
+    .navbar .bordered1  {
+   border: 2px solid #E43496;
+     text-align: center;
+}
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+   .navbar .bordered  {
+    border-left: 2px solid #E43496;
+    border-right: 2px solid #E43496;
+    border-top: 2px solid #E43496;
+    border-bottom: 2px solid #E43496;
+     text-align: center;
+}
+    .navbar .bordered1  {
+   border: 2px solid #E43496;
+     text-align: center;
+}
+}
+  
+}
+
+/* Media queries for dropdown navigation overflow*/
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 991px) {
+
+    .dropdown-menu, .dropdown-item{
+        overflow:auto;
+        width: 80%;
+        
+    }
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+    .dropdown-menu, .dropdown-item{
+        overflow:inherit;
+        width: 99%;
+        
+    }
+   
+}
+  
+
 
 /*styling for followup page*/
 
