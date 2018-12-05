@@ -438,8 +438,8 @@ footer p {
 @media (min-width: 992px) {
     
     .dropdown-menu, .dropdown-item{
-        overflow: hidden;
-        width: 80%;
+        overflow:inherit;
+        width: 99%;
         
     }
    
