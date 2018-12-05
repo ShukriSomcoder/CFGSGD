@@ -45,11 +45,7 @@
 
 
 
-.navbar .bordered  {
-    border: 2px solid #E43496;
-     text-align: center;
-}
-       
+    
     
 .navbar-light .navbar-brand {
        color:#168299;
@@ -340,3 +336,78 @@ footer p {
     }
     
 }
+
+/* Media queries for jumbotron*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .jumbotron h1 .display-4 {
+        font-size: 2em;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .jumbotron h1 .display-4{
+        font-size: 6em;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .jumbotron h1 .display-4{
+        font-size: 8em;
+    }
+}
+
+/* Media queries for navigation border*/
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .navbar .bordered  {
+    border-left: 2px solid #E43496;
+    border-right: 2px solid #E43496;
+    border-top: 2px solid #E43496;
+    border-bottom: none;
+     text-align: center;
+}
+    .navbar .bordered1  {
+   border: 2px solid #E43496;
+     text-align: center;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 991px) {
+.navbar .bordered  {
+    border-left: 2px solid #E43496;
+    border-right: 2px solid #E43496;
+    border-top: 2px solid #E43496;
+    border-bottom: none;
+     text-align: center;
+}
+    .navbar .bordered1  {
+   border: 2px solid #E43496;
+     text-align: center;
+}
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+   .navbar .bordered  {
+    border-left: 2px solid #E43496;
+    border-right: 2px solid #E43496;
+    border-top: 2px solid #E43496;
+    border-bottom: 2px solid #E43496;
+     text-align: center;
+}
+    .navbar .bordered1  {
+   border: 2px solid #E43496;
+     text-align: center;
+}
+}
+  
+}
+
+
