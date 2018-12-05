@@ -443,7 +443,7 @@ footer p {
 .carousel {
   width:100%;
   }
-  
+
 .bkc {
     display: block;
     margin-left: auto;
@@ -480,17 +480,17 @@ font-size: small;
 /*followup page - redo*/
 .one {
     position: relative;
-      left: -450px;
+      left: -110px;
       padding-bottom: 25px;
     }
 .two  {
     position: relative;
-    right: -450px;
+    right: -110px;
     padding-bottom: 25px;
 }
 
 .imagequote {
-  height: 1980px;
+  height: 1700px;
 }
 .textarea {
   background: #e4e6e7;
