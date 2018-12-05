@@ -46,7 +46,7 @@
        color:#168299;
     text-decoration: none;
     text-align: right;
-    
+
 }
 
 html {
@@ -104,7 +104,7 @@ body {
 	font-size: 1.4em;
 	font-family: 'mukta', sans-serif;
   font-weight: bold;
-	
+
   padding: 0;
   margin: 0;
 	background: #fff;
@@ -402,7 +402,7 @@ footer p {
 
 /* Large devices (large desktops, 992px and up) */
 @media (min-width: 992px) {
-    
+
    .navbar .bordered  {
     border-left: 2px solid #E43496;
     border-right: 2px solid #E43496;
@@ -415,7 +415,7 @@ footer p {
      text-align: center;
 }
 }
-  
+
 }
 
 /* Media queries for dropdown navigation overflow*/
@@ -428,21 +428,21 @@ footer p {
     .dropdown-menu, .dropdown-item{
         overflow:auto;
         width: 80%;
-        
+
     }
 }
 
 /* Large devices (large desktops, 992px and up) */
 @media (min-width: 992px) {
-    
+
     .dropdown-menu, .dropdown-item{
         overflow:inherit;
         width: 99%;
-        
+
     }
-   
+
 }
-  
+
 
 
 /*styling for followup page*/
@@ -541,4 +541,12 @@ font-size: small;
 .back {
   height: auto;
   size: 100%;
+}
+
+.form-group {
+  color: #168299;
+}
+
+.keep {
+  color: 
 }
