@@ -391,15 +391,17 @@ font-size: small;
 /*followup page - redo*/
 .one {
     position: relative;
-      left: -400px;
+      left: -450px;
+      padding-bottom: 25px;
     }
 .two  {
     position: relative;
-    right: -400px;
+    right: -450px;
+    padding-bottom: 25px;
 }
 
 .imagequote {
-  height: 1000px;
+  height: 1980px;
 }
 .textarea {
   background: #e4e6e7;
@@ -430,4 +432,15 @@ font-size: small;
 
 .submit:hover{
   background:  #19313b;
+}
+
+.share {
+  position:static;
+  top: 1000px;
+  bottom: 0px;
+}
+
+.back {
+  height: auto;
+  size: 100%;
 }
