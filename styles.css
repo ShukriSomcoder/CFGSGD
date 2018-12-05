@@ -435,6 +435,7 @@ font-size: small;
 }
 
 .share {
+  color: #168299;
   position:static;
   top: 1000px;
   bottom: 0px;
