@@ -449,6 +449,32 @@ footer p {
 
 }
 
+/* Media queries for quote images reponsive sizes*/
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) and (min-width:768px) {
+   .resize{
+    max-width: 80%;
+        height:auto;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 991px) {
+.resize{
+    max-width: 80%;
+        height:auto;
+}
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+
+   .resize{
+    max-width: 90%;
+        height:auto;
+}
+}
 
 
 /*styling for followup page*/
@@ -493,15 +519,13 @@ font-size: small;
 }
 /*followup page - redo*/
 .one {
-    height:auto;
-    width:auto;
+    
     position: static;
       
       padding-bottom: 25px;
     }
 .two  {
-    height:auto;
-    width:auto;
+   
     position: static;
     
     padding-bottom: 25px;
