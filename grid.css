@@ -1,9 +1,0 @@
-/* Grid layout*//
-
-.grid{
-    
-    max-width: 800px;
-    diaplay: grid;
-    grid-template-columns: 200px   100px  200px;
-}
-

@@ -252,6 +252,12 @@ section{
     margin: 5%;
     padding: 30px;
 }
+
+.quotes{
+    border: none;
+    margin: 5%;
+    padding: 30px;
+} 
 .capsule{
     border: 3px solid #168299;
     margin: 5%;
@@ -487,12 +493,12 @@ font-size: small;
 }
 /*followup page - redo*/
 .one {
-    position: relative;
+    position: static;
       left: -110px;
       padding-bottom: 25px;
     }
 .two  {
-    position: relative;
+    position: static;
     right: -110px;
     padding-bottom: 25px;
 }
@@ -550,3 +556,15 @@ font-size: small;
 .keep {
   color: #42b4d6;
 }
+
+/* textarea of form to be responsive*/
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+}
+
+textarea {max-width:95%;}
