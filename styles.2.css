@@ -493,13 +493,17 @@ font-size: small;
 }
 /*followup page - redo*/
 .one {
+    height:auto;
+    width:auto;
     position: static;
-      left: -110px;
+      
       padding-bottom: 25px;
     }
 .two  {
+    height:auto;
+    width:auto;
     position: static;
-    right: -110px;
+    
     padding-bottom: 25px;
 }
 
