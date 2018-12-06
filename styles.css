@@ -103,6 +103,7 @@ body {
 	font-size: 1.4em;
 	font-family: 'mukta', sans-serif;
   font-weight: bold;
+
   padding: 0;
   margin: 0;
 	background: #fff;
@@ -177,6 +178,7 @@ p {
   margin-bottom: 1.25em;
 }
 .main-content {
+  color: #168299;
   margin: 2em auto;
 }
 .card {
@@ -414,7 +416,11 @@ footer p {
 }
 }
 
+}
+
 /* Media queries for dropdown navigation overflow*/
+
+
 
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 991px) {
@@ -437,13 +443,15 @@ footer p {
 
 }
 
+
+
 /*styling for followup page*/
 
 /*followup carousel*/
 .carousel {
   width:100%;
-  }
 
+  }
 .bkc {
     display: block;
     margin-left: auto;
@@ -490,7 +498,7 @@ font-size: small;
 }
 
 .imagequote {
-  height: 1700px;
+  height: 1650px;
 }
 .textarea {
   background: #e4e6e7;
@@ -540,5 +548,5 @@ font-size: small;
 }
 
 .keep {
-  color:
+  color: #42b4d6;
 }
