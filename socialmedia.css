@@ -1,10 +1,62 @@
- .socmedia {
-    
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+ul .socmedia {
     position:absolute;
     top:50%;
     Left:50%;
-    transform:translate(-50%, -50%)
+    transform:translate(-50%, -50%);
     margin: 0;
-     padding:0;
-     display:flex;
+    padding:0;
+    display:flex;
 }
+
+.socmedia .socmedbut  {
+    list-style: none;
+}
+
+.socmedia .socmedbut .atags {
+    position:relative;
+    width: 60px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    transition: .5s;
+
+}
+
+socmedia .socmedbut .atags:hover{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+
+.socmedia .socmedbut .atags .fa{
+    width:100%;
+    height:100%;
+    display: block;
+    background:light-grey;
+    background:linear-gradient (0deg, #ff, #ddd);
+    border-radius: 50%;
+    line-height: calc(60px - 6px);
+    font-size: 24px;
+    color:#262626;
+    transition: .5s;
+
+
+
+
+
+
+}
+
+
+
